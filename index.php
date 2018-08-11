@@ -13,6 +13,7 @@ echo $class9->attendance;
 echo $class9->totalMarks;
 
 //========================================================================
+//Billing Class
 
 class Bill{
     public $dinner=20;
