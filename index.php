@@ -30,7 +30,7 @@ class Bill{
         return $this->bill;
     }
 }
-
+//Biling object
 $bill=new Bill();
-echo $bill->desserts(2);
-echo $bill->dinner(2);
+echo $bill->desserts(2)->bill;
+echo $bill->dinner(2)->bill;
